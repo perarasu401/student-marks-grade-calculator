@@ -12,7 +12,6 @@ def calculate_bill(units):
 
 def main():
     n = int(input("Enter number of customers: "))
-
     for i in range(1, n + 1):
         print(f"\nCustomer {i}")
         name = input("Enter customer name: ")
